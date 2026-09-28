@@ -314,7 +314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 19.514795, y: -4.092163}
+  m_AnchoredPosition: {x: 19.51477, y: -4.092163}
   m_SizeDelta: {x: -128.6326, y: -70.945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &79531899
@@ -1299,8 +1299,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1930501227}
-        m_TargetAssemblyTypeName: UR16RobotArmController, Assembly-CSharp
+      - m_Target: {fileID: 1394687706}
+        m_TargetAssemblyTypeName: UR16UIController, Assembly-CSharp
         m_MethodName: Reset
         m_Mode: 1
         m_Arguments:
@@ -3993,6 +3993,7 @@ GameObject:
   - component: {fileID: 1394687704}
   - component: {fileID: 1394687703}
   - component: {fileID: 1394687702}
+  - component: {fileID: 1394687706}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4083,6 +4084,31 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1394687706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394687701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85dc221d5e75ae2419164ae51924a21c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robot: {fileID: 1930501227}
+  j1Slider: {fileID: 394523586}
+  j2Slider: {fileID: 944743863}
+  j3Slider: {fileID: 902204601}
+  j4Slider: {fileID: 107576162}
+  j5Slider: {fileID: 802076527}
+  j6Slider: {fileID: 1246474314}
+  txtJ1: {fileID: 1179850315}
+  txtJ2: {fileID: 696391195}
+  txtJ3: {fileID: 1930385725}
+  txtJ4: {fileID: 696470785}
+  txtJ5: {fileID: 1210377053}
+  txtJ6: {fileID: 1971609290}
 --- !u!1 &1443449203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5301,18 +5327,6 @@ MonoBehaviour:
   j5Max: 180
   j6Min: -180
   j6Max: 180
-  j1Slider: {fileID: 394523586}
-  j2Slider: {fileID: 944743863}
-  j3Slider: {fileID: 902204601}
-  j4Slider: {fileID: 107576162}
-  j5Slider: {fileID: 802076527}
-  j6Slider: {fileID: 1246474314}
-  txtJ1: {fileID: 1179850315}
-  txtJ2: {fileID: 696391195}
-  txtJ3: {fileID: 1930385725}
-  txtJ4: {fileID: 696470785}
-  txtJ5: {fileID: 1210377053}
-  txtJ6: {fileID: 1971609290}
 --- !u!1 &1939264807
 GameObject:
   m_ObjectHideFlags: 0
